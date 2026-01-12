@@ -2,7 +2,7 @@
 session_start();
 require_once 'config/Database.php';
 
-define('BASE_URL', 'http://localhost/perpustakaan2/');
+define('BASE_URL', 'http://zizantara.my.id/');
 
 $dbObject = new Database();
 $conn = $dbObject->conn;
